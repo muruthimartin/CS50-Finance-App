@@ -12,6 +12,9 @@ This is a simple Python Flask web app via which you can manage portfolios of sto
 ### Download the project's code
 * `git clone` the project's url in an empty directory
 * `cd` into the directory
-* `pip freeze requirements.txt`
-* run `export API_KEY={"API_KEY you obtained from IEX cloud"}`
+* `pip install virtualenv`
+* `virtualenv venv`
+* `venv/source/bin/activate`
+* `pip install -r requirements.txt`
+* `export API_KEY={"API_KEY you obtained from IEX cloud"}`
 * `flask run`
