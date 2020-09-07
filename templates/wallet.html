@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Wallet
+{% endblock %}
+
+{% block main %}
+
+    <p>Your Current Wallet Balance Is {{cash}}</p><br>
+
+    <form action = "/wallet" method = "post">
+        <div class = "form-group">
+            <label>Add Cash To Your Wallet:</label><br>
+            <input autocomplete="off" class="form-control" min = "1" name = "cash" placeholder = "Amount To Add" type = "number">
+        </div>
+        <button class = "btn btn-primary" type = "submit" >Refill Wallet</button>
+    </form>
+
+
+{% endblock %}
