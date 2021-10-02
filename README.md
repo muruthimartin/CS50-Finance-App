@@ -14,7 +14,7 @@ This is a simple Python Flask web app via which you can manage portfolios of sto
 * `cd CS50-Finance-App`
 * `pip install virtualenv`
 * `virtualenv venv`
-* `venv/source/bin/activate` or 'source venv/Scripts/activate' if you are running gitbash on windows
+* `venv/source/bin/activate` or `source venv/Scripts/activate` if you are running gitbash on windows
 * `pip install -r requirements.txt`
 * `export API_KEY={"API_KEY you obtained from IEX cloud"}`
 * `flask run`
